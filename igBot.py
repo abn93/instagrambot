@@ -49,7 +49,7 @@ class InstagramBot:
                 'window.scrollTo(0, document.body.scrollHeight);')
             try:
                 # Aqui, são os comentários que o bot vai fazer.
-                comentarios = ['Eu quero', 'teste', 'Eu quero!!!!!!']
+                comentarios = ['Eu quero', 'teste', "Eu quero!!"]
                 driver.find_element_by_class_name('Ypffh').click()
                 campo_comentario = driver.find_element_by_class_name('Ypffh')
                 time.sleep(random.randint(2, 5))
